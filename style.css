@@ -31,7 +31,6 @@ aside img {
     width: 120px;
     filter: url("flexbox_images/logo.png");
     filter: opacity(40%);
- /* I tried to change the logo color to gray but it didn't work*/
     padding-bottom: 50px;
 }
 

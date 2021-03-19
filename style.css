@@ -1,0 +1,100 @@
+
+*{ box-sizing: border-box;
+}
+
+/* body styles */
+body {
+    display: grid;
+    grid-template-columns: 1 fr 4 fr;
+    grid-template-rows: 50 px 1 fr 30px;
+    grid-gap: 10px;
+    font-family: Helvetica;
+}
+
+/*aside styles*/
+aside > main {
+    margin-left: auto;
+    
+}
+
+aside {
+    height: 80px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 5%;
+}
+
+aside img {
+    width: 300px;
+    width: 120px;
+    filter: url("flexbox_images/logo.png");
+    filter: opacity(40%);
+ /* I tried to change the logo color to gray but it didn't work*/
+    padding-bottom: 50px;
+}
+
+
+aside p1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+aside p2 {
+    letter-spacing: 1px;
+}
+
+aside p1, p2 {
+    color: lightslategrey;
+    font-size: 20px;
+    padding: 15px;
+    width: 300px; 
+}
+
+
+div {
+    padding-bottom: 50px;
+}
+
+    
+/*header sytles*/
+.header {
+    margin-left: 28%;
+    padding: 10px;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+}
+
+
+/*main styles*/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 15%;
+}
+
+main img {
+    width: 25%;
+    height: 15%;
+}
+
+
+/*about styles*/
+.about {
+    display: flex;
+    margin: 20px;
+    margin-left: 25%;
+}
+
+/*footer styles*/
+footer {
+    background-color: gainsboro;
+    width: 100%;
+    height: 100px;
+}
